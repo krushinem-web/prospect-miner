@@ -1,0 +1,170 @@
+# Prospect Miner Configuration
+# All thresholds, rules, and weights are defined here
+# Modify this file to change behavior without code changes
+
+version: "1.0.0"
+
+# Discovery sources
+sources:
+  - name: yelp
+    type: directory
+    enabled: true
+    url: https://www.yelp.com
+    rateLimit: 30
+    categories:
+      - contractors
+      - plumbers
+      - electricians
+      - hvac
+      - landscaping
+    geos:
+      - city: Austin
+        state: TX
+        country: US
+        radius: 25
+
+  - name: google_maps
+    type: maps
+    enabled: false
+    rateLimit: 60
+    categories:
+      - home services
+      - construction
+    geos:
+      - city: Austin
+        state: TX
+        radius: 25
+
+# Filter rules
+filters:
+  rules:
+    - field: businessName
+      operator: contains
+      value: "franchise"
+      reason: bad_fit
+
+    - field: businessName
+      operator: regex
+      value: "^\\d+$"
+      reason: bad_fit
+
+  excludeCategories:
+    - chain restaurants
+    - national brands
+    - big box stores
+
+  excludeKeywords:
+    - nationwide
+    - corporate
+    - headquarters
+
+# Cooldown settings (in days)
+cooldowns:
+  defaultDays: 30
+  byContactResult:
+    bounced_hard: 365
+    bounced_soft: 14
+    no_reply: 30
+    sent: 7
+    opened: 14
+    replied: 90
+  byFailureType:
+    captcha_block: 7
+    no_contact_page: 30
+    site_timeout: 3
+    bounce_hard: 365
+    bounce_soft: 14
+    rate_limited: 1
+    dns_error: 30
+    ssl_error: 30
+    page_not_found: 60
+    parse_error: 7
+    unknown: 7
+
+# Scoring configuration
+scoring:
+  weights:
+    hasEmail: 30
+    hasPhone: 20
+    hasWebsite: 10
+    reviewCount: 15
+    rating: 15
+    recentActivity: 10
+  thresholds:
+    minScore: 20
+    lowReviewCount: 10
+    poorRatingThreshold: 3.5
+    outdatedWebsiteDays: 365
+  angleWeights:
+    no_website: 25
+    outdated_website: 20
+    low_reviews: 15
+    poor_ratings: 15
+    no_online_booking: 20
+    founder_led: 25
+
+# LinkedIn enrichment (OPTIONAL - read-only)
+linkedIn:
+  enabled: false
+  rateLimit: 30
+  maxEnrichPerRun: 50
+  signals:
+    checkCompanyExists: true
+    checkEmployeeCount: true
+    checkFounderProfile: false
+    checkActivityLevel: false
+
+# Website enrichment settings
+enrichment:
+  timeout: 30000
+  retries: 2
+  retryDelay: 5000
+  headless: true
+  contactPagePatterns:
+    - /contact
+    - /contact-us
+    - /about
+    - /about-us
+    - /get-in-touch
+    - /reach-us
+  emailPatterns:
+    - "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
+  phonePatterns:
+    - "\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}"
+    - "\\+1[-.\\s]?\\d{3}[-.\\s]?\\d{3}[-.\\s]?\\d{4}"
+
+# Output settings
+output:
+  format: csv
+  filenamePattern: "leads_{date}_{count}"
+  fields:
+    - leadId
+    - businessName
+    - email
+    - phone
+    - website
+    - city
+    - state
+    - score
+    - activeAngles
+    - scoreReasons
+  includeAngles: true
+  includeReasons: true
+
+# Refresh/regeneration settings
+refresh:
+  enabled: true
+  checkIntervalHours: 24
+  cooldownExpiryCheckEnabled: true
+  signalChangeCheckEnabled: true
+  resetExhaustedAngles: false
+  signals:
+    websiteChange: true
+    reviewChange: true
+    ratingChange: true
+
+# Pipeline settings
+pipeline:
+  batchSize: 100
+  maxLeadsPerRun: 500
+  parallelism: 5

@@ -8,7 +8,7 @@ version: "1.0.0"
 sources:
   - name: yelp
     type: directory
-    enabled: true
+    enabled: false
     url: https://www.yelp.com
     rateLimit: 30
     categories:
@@ -23,9 +23,9 @@ sources:
         country: US
         radius: 50
 
-  - name: google_maps
-    type: maps
-    enabled: false
+  - name: google_places
+    type: google_places
+    enabled: true
     rateLimit: 60
     categories:
       - home services

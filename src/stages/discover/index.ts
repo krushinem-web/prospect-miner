@@ -15,12 +15,16 @@ export interface SourceHandler {
   discover(source: SourceConfig, limit?: number): AsyncGenerator<RawBusinessData>;
 }
 
-// Registry of source handlers
+// Registry of source handlers - MUST be initialized before any imports that use it
 const sourceHandlers: Map<string, SourceHandler> = new Map();
 
 export function registerSourceHandler(type: string, handler: SourceHandler): void {
   sourceHandlers.set(type, handler);
 }
+
+// Import source handlers after registry is created
+import './sources/yelp';
+import './sources/google-places';
 
 export class DiscoverStage extends BaseStage {
   private sourceName?: string;

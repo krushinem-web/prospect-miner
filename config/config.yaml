@@ -28,11 +28,594 @@ sources:
     enabled: true
     rateLimit: 60
     categories:
-      - home services
-      - construction
+      - roofing contractor
+      - hvac contractor
+      - plumber
+      - electrician
+      - landscaping
+      - concrete contractor
+      - fencing contractor
+      - painter
+      - flooring contractor
+      - handyman
+      - pest control
+      - tree service
+      - garage door repair
+      - carpet cleaning
+      - house cleaning
+      - window cleaning
+      - pressure washing
+      - lawn care
+      - irrigation
+      - deck builder
+      - siding contractor
+      - gutter cleaning
+      - moving company
+      - storage facility
+      - auto repair
+      - towing service
+      - car detailing
+      - restaurant
+      - cafe
+      - bakery
+      - gym
+      - salon
+      - spa
+      - dental clinic
+      - chiropractor
+      - physical therapy
+      - veterinary clinic
+      - law firm
+      - accounting firm
+      - real estate agency
+      - insurance agency
+      - mortgage broker
+      - financial advisor
+      - printing service
+      - sign shop
+      - embroidery
+      - screen printing
+      - catering
+      - food truck
+      - food delivery
+      - wedding planner
+      - event venue
+      - photographer
+      - videographer
+      - dj service
+      - florist
+      - limousine service
+      - auto glass repair
+      - tire shop
+      - auto body shop
+      - motorcycle repair
+      - boat repair
+      - appliance repair
+      - furniture repair
+      - upholstery
+      - mattress store
+      - furniture store
+      - mattress cleaning
+      - carpet installer
+      - tile contractor
+      - granite countertop
+      - cabinet maker
+      - custom closet
+      - home theater installation
+      - security system installation
+      - solar panel installation
+      - insulation contractor
+      - basement waterproofing
+      - foundation repair
+      - mold remediation
+      - radon testing
+      - home inspection
+      - property management
+      - real estate photography
+      - staging company
+      - interior designer
+      - architect
+      - general contractor
+      - construction company
+      - demolition contractor
+      - excavation contractor
+      - dumpster rental
+      - junk removal
+      - hauling service
+      - scrap metal recycling
+      - pawn shop
+      - thrift store
+      - consignment shop
+      - antique store
+      - craft store
+      - art gallery
+      - frame shop
+      - trophy shop
+      - engraving service
+      - jewelry repair
+      - watch repair
+      - shoe repair
+      - alterations
+      - dry cleaning
+      - laundromat
+      - car wash
+      - dog grooming
+      - pet boarding
+      - dog training
+      - pet sitting
+      - aquarium store
+      - pool cleaning
+      - pool service
+      - hot tub repair
+      - sauna installation
+      - fitness equipment repair
+      - treadmill repair
+      - gym equipment maintenance
+      - sports equipment repair
+      - bicycle repair
+      - bike shop
+      - scooter rental
+      - kayak rental
+      - paddleboard rental
+      - boat rental
+      - jet ski rental
+      - fishing charter
+      - hunting guide
+      - tour operator
+      - travel agency
+      - vacation rental
+      - airbnb management
+      - hotel
+      - motel
+      - bed and breakfast
+      - hostel
+      - campground
+      - rv park
+      - storage units
+      - mini storage
+      - warehouse storage
+      - cold storage
+      - document storage
+      - records management
+      - shredding service
+      - data destruction
+      - it services
+      - computer repair
+      - phone repair
+      - tablet repair
+      - game console repair
+      - drone repair
+      - 3d printing service
+      - laser cutting
+      - cnc machining
+      - metal fabrication
+      - welding service
+      - blacksmith
+      - knife sharpening
+      - tool rental
+      - equipment rental
+      - party rental
+      - tent rental
+      - table and chair rental
+      - bounce house rental
+      - photo booth rental
+      - arcade games rental
+      - casino equipment rental
+      - audiovisual equipment rental
+      - staging equipment rental
+      - lighting rental
+      - sound system rental
+      - dj equipment rental
+      - musical instrument rental
+      - piano tuning
+      - music lessons
+      - dance studio
+      - martial arts
+      - yoga studio
+      - pilates studio
+      - crossfit gym
+      - boxing gym
+      - rock climbing gym
+      - ice skating rink
+      - roller skating rink
+      - bowling alley
+      - mini golf
+      - golf course
+      - driving range
+      - golf lessons
+      - tennis club
+      - swim club
+      - swim lessons
+      - scuba diving lessons
+      - skydiving
+      - bungee jumping
+      - zip line
+      - escape room
+      - axe throwing
+      - gun range
+      - archery range
+      - horseback riding lessons
+      - stable
+      - horse boarding
+      - farrier
+      - equine veterinarian
+      - livestock veterinarian
+      - mobile veterinarian
+      - pet crematorium
+      - pet cemetery
+      - taxidermist
+      - hunting supply store
+      - fishing supply store
+      - bait and tackle shop
+      - boat dealership
+      - rv dealership
+      - motorcycle dealership
+      - atv dealership
+      - trailer dealership
+      - car dealership
+      - truck dealership
+      - equipment dealership
+      - forklift dealer
+      - scissor lift rental
+      - boom lift rental
+      - excavator rental
+      - skid steer rental
+      - backhoe rental
+      - bulldozer rental
+      - crane rental
+      - dumpster rental
+      - portable toilet rental
+      - temporary fencing rental
+      - crowd control rental
+      - traffic control rental
+      - construction barrier rental
+      - signage rental
+      - banner printing
+      - vehicle wrap
+      - fleet graphics
+      - window tinting
+      - paint protection film
+      - ceramic coating
+      - auto detailing
+      - rv detailing
+      - boat detailing
+      - aircraft detailing
+      - helicopter tours
+      - flight school
+      - flying lessons
+      - drone pilot training
+      - commercial drone services
+      - aerial photography
+      - real estate drone photography
+      - wedding drone videography
+      - surveyor
+      - land surveyor
+      - boundary survey
+      - topographic survey
+      - construction staking
+      - civil engineering
+      - structural engineering
+      - mechanical engineering
+      - electrical engineering
+      - environmental engineering
+      - geotechnical engineering
+      - traffic engineering
+      - transportation engineering
+      - water resources engineering
+      - septic system design
+      - septic tank pumping
+      - septic tank installation
+      - sewer line repair
+      - trenchless pipe repair
+      - hydro jetting
+      - drain cleaning
+      - rooter service
+      - water heater repair
+      - water heater installation
+      - tankless water heater
+      - boiler repair
+      - furnace repair
+      - air conditioning repair
+      - heat pump repair
+      - duct cleaning
+      - duct repair
+      - ductwork installation
+      - ventilation contractor
+      - indoor air quality testing
+      - air purifier installation
+      - humidifier installation
+      - dehumidifier installation
+      - thermostat installation
+      - smart home installation
+      - home automation
+      - lighting control
+      - motorized shades
+      - home theater design
+      - acoustic treatment
+      - soundproofing
+      - insulation installation
+      - spray foam insulation
+      - blown in insulation
+      - radiant barrier
+      - weatherization
+      - energy audit
+      - blower door test
+      - thermal imaging
+      - lead paint testing
+      - asbestos testing
+      - asbestos abatement
+      - mold inspection
+      - mold removal
+      - water damage restoration
+      - fire damage restoration
+      - smoke damage restoration
+      - biohazard cleanup
+      - crime scene cleanup
+      - hoarding cleanup
+      - estate cleanout
+      - foreclosure cleanout
+      - eviction cleanout
+      - construction cleanup
+      - post construction cleaning
+      - commercial cleaning
+      - office cleaning
+      - medical office cleaning
+      - dental office cleaning
+      - veterinary clinic cleaning
+      - restaurant hood cleaning
+      - kitchen exhaust cleaning
+      - grease trap cleaning
+      - drain line jetting
+      - backflow testing
+      - backflow prevention
+      - fire sprinkler inspection
+      - fire extinguisher service
+      - fire alarm monitoring
+      - security alarm monitoring
+      - access control installation
+      - intercom installation
+      - video surveillance
+      - cctv installation
+      - keyless entry
+      - smart lock installation
+      - safe installation
+      - vault installation
+      - lock repair
+      - rekey service
+      - master key system
+      - key duplication
+      - car key replacement
+      - transponder key programming
+      - key fob replacement
+      - remote start installation
+      - car alarm installation
+      - window tinting automotive
+      - paintless dent repair
+      - hail damage repair
+      - collision repair
+      - frame straightening
+      - wheel alignment
+      - tire balancing
+      - tire rotation
+      - oil change
+      - brake repair
+      - transmission repair
+      - engine repair
+      - diagnostic service
+      - check engine light diagnosis
+      - pre purchase inspection
+      - lemon law inspection
+      - classic car restoration
+      - hot rod builder
+      - custom car builder
+      - motorcycle customization
+      - atv customization
+      - boat customization
+      - rv customization
+      - van conversion
+      - school bus conversion
+      - tiny home builder
+      - container home builder
+      - modular home builder
+      - manufactured home dealer
+      - mobile home park
+      - rv park
+      - campground
+      - hunting lease
+      - fishing lease
+      - timber company
+      - logging company
+      - sawmill
+      - lumber yard
+      - wood supplier
+      - firewood delivery
+      - mulch delivery
+      - topsoil delivery
+      - gravel delivery
+      - sand delivery
+      - rock delivery
+      - boulder placement
+      - landscape design
+      - landscape architecture
+      - landscape lighting
+      - outdoor lighting
+      - holiday lighting
+      - christmas light installation
+      - snow removal
+      - ice management
+      - salting service
+      - sidewalk shoveling
+      - roof snow removal
+      - gutter cleaning
+      - gutter repair
+      - gutter installation
+      - seamless gutters
+      - gutter guards
+      - downspout repair
+      - french drain installation
+      - drainage contractor
+      - storm drain cleaning
+      - catch basin cleaning
+      - culvert cleaning
+      - ditch maintenance
+      - pond maintenance
+      - lake management
+      - fountain installation
+      - waterfall installation
+      - koi pond installation
+      - pond liner installation
+      - aeration system installation
+      - dock builder
+      - boat dock repair
+      - seawall construction
+      - retaining wall builder
+      - block wall builder
+      - stone wall builder
+      - brick paver installation
+      - concrete paver installation
+      - stamped concrete
+      - exposed aggregate concrete
+      - colored concrete
+      - polished concrete
+      - epoxy floor coating
+      - garage floor coating
+      - basement floor coating
+      - warehouse floor coating
+      - commercial floor coating
+      - industrial floor coating
+      - line striping
+      - parking lot maintenance
+      - asphalt repair
+      - asphalt sealing
+      - crack filling
+      - pothole repair
+      - parking lot sweeping
+      - pressure washing commercial
+      - graffiti removal
+      - gum removal
+      - rust removal
+      - mineral deposit removal
+      - efflorescence removal
+      - efflorescence treatment
+      - waterproofing contractor
+      - basement waterproofing
+      - crawl space encapsulation
+      - vapor barrier installation
+      - sump pump installation
+      - battery backup sump pump
+      - water powered sump pump
+      - backup generator installation
+      - transfer switch installation
+      - electrical panel upgrade
+      - service upgrade
+      - ev charger installation
+      - tesla charger installation
+      - car charger installation
+      - solar panel installation
+      - solar battery installation
+      - wind turbine installation
+      - geothermal installation
+      - heat pump water heater
+      - tankless water heater installation
+      - water softener installation
+      - water filtration installation
+      - reverse osmosis installation
+      - whole house water filter
+      - well pump repair
+      - well pump installation
+      - well drilling
+      - well water testing
+      - water treatment
+      - iron filter installation
+      - sulfur filter installation
+      - sediment filter installation
+      - uv water purification
+      - ozone water treatment
+      - water testing laboratory
+      - environmental testing
+      - radon mitigation
+      - radon system installation
+      - carbon monoxide testing
+      - indoor air quality testing
+      - allergen testing
+      - dust mite testing
+      - bed bug inspection
+      - termite inspection
+      - termite treatment
+      - termite bait system
+      - termite pre construction treatment
+      - pest control
+      - mosquito control
+      - tick control
+      - flea control
+      - bed bug treatment
+      - cockroach extermination
+      - ant control
+      - rodent control
+      - wildlife removal
+      - animal control
+      - bird control
+      - bat removal
+      - squirrel removal
+      - raccoon removal
+      - skunk removal
+      - opossum removal
+      - snake removal
+      - bee removal
+      - wasp removal
+      - hornet removal
+      - yellow jacket removal
+      - carpenter ant treatment
+      - carpenter bee treatment
+      - wood boring beetle treatment
+      - powder post beetle treatment
+      - old house borer treatment
+      - termite damage repair
+      - wood rot repair
+      - structural repair
+      - floor joist repair
+      - sill plate repair
+      - foundation crack repair
+      - foundation underpinning
+      - helical pier installation
+      - push pier installation
+      - slab jacking
+      - mud jacking
+      - concrete leveling
+      - poly leveling
+      - sidewalk leveling
+      - driveway leveling
+      - patio leveling
+      - pool deck leveling
+      - garage floor leveling
+      - basement floor leveling
+      - warehouse floor leveling
+      - commercial floor leveling
+      - industrial floor leveling
     geos:
       - city: Paducah
         state: KY
+        radius: 50
+      - city: Murray
+        state: KY
+        radius: 50
+      - city: Mayfield
+        state: KY
+        radius: 50
+      - city: Benton
+        state: KY
+        radius: 50
+      - city: Calvert City
+        state: KY
+        radius: 50
+      - city: Metropolis
+        state: IL
+        radius: 50
+      - city: Cape Girardeau
+        state: MO
+        radius: 50
+      - city: Clarksville
+        state: TN
         radius: 50
 
 # Filter rules
@@ -165,6 +748,6 @@ refresh:
 
 # Pipeline settings
 pipeline:
-  batchSize: 100
-  maxLeadsPerRun: 500
-  parallelism: 5
+  batchSize: 50
+  maxLeadsPerRun: 200
+  parallelism: 3

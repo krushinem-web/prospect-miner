@@ -18,10 +18,10 @@ sources:
       - hvac
       - landscaping
     geos:
-      - city: Austin
-        state: TX
+      - city: Paducah
+        state: KY
         country: US
-        radius: 25
+        radius: 50
 
   - name: google_maps
     type: maps
@@ -31,9 +31,9 @@ sources:
       - home services
       - construction
     geos:
-      - city: Austin
-        state: TX
-        radius: 25
+      - city: Paducah
+        state: KY
+        radius: 50
 
 # Filter rules
 filters:
